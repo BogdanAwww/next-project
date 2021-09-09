@@ -17,11 +17,13 @@ const Header = () => {
   return (
     <AppBar position="static">
       <Toolbar>
-        <Container className={s.container}>
-          <Typography variant="h6">
-            LOGO
-          </Typography>
-          <Button color="inherit">Login</Button>
+        <Container>
+          <div className={s.container}>
+            <Typography variant="h6">
+              LOGO
+            </Typography>
+            <Button color="inherit">Login</Button>
+          </div>
         </Container>
       </Toolbar>
     </AppBar>
